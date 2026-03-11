@@ -14,8 +14,13 @@ body {
 }
 
 #page-wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+}
+
+#content-wrapper {
+  width: 90%;
+  margin: 10px auto;
   padding: 35px 0px; /*shifts down only*/
 }
 
@@ -33,12 +38,14 @@ body {
 }
 
 #footer {
-  background-color: #777;
-  height: 100px;
+  background-color: #383164;
+  height: 60px;
   clear: both; /*moves to bottom*/
-  padding: 57px;
+  padding: 50px; /*inner*/
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 18px;
+  color: #FFF;
 }
 
 #main-nav {
