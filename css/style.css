@@ -1,3 +1,15 @@
 body {
-  background-image: url("../media/images/black.jpg");
+  background-color: white;
+  color: black;
+}
+
+#main-nav {
+  background-color: #FF9A33;
+  color: white;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
