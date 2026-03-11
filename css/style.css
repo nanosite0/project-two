@@ -3,14 +3,33 @@ body {
   color: #000; /*black*/
 }
 
-html {
-  font-family: verdana,sans-serif;
+@font-face {
+  font-family: 'UbuntuTitling-Bold';
+  src: url('../media/fonts/UbuntuTitling-Bold.ttf')
+}
+
+@font-face {
+  font-family: 'PowFont-Regular';
+  src: url('../media/fonts/PowFont-Regular.ttf')
 }
 
 #page-wrapper {
   width: 90%;
   margin: 0 auto;
   padding: 35px 0px; /*shifts down only*/
+}
+
+#header {
+  background-image: url("../media/images/banner.png");
+  position: relative;
+}
+
+#header h1 {
+  font-family: 'PowFont-Regular',verdana,sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #FFF;
+  padding: 10px 70px;
 }
 
 #footer {
@@ -22,17 +41,13 @@ html {
   font-size: 16px;
 }
 
-@font-face {
-  font-family: 'UbuntuTitling-Bold';
-  src: url('../media/fonts/UbuntuTitling-Bold.ttf')
-}
-
 #main-nav {
   width: 100%; /*take up upper area*/
   float: left; /*set up*/
   background-color: #FF9A33; /*light orange*/
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
-  box-shadow: 0px 9px 2px 0px rgba(10, 45, 75, 0.4);
+  font-size: 18px;
+  box-shadow: 0px 5px 2px 0px rgba(10, 45, 75, 0.5);
 }
 
 #main-nav ul {
@@ -52,7 +67,7 @@ html {
 
 #main-nav ul li a {
   text-decoration: none;
-  padding: 15px 15px;
+  padding: 12px 80px;
   display: block;
   color: #FFF;
 }
