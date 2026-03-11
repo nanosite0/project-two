@@ -3,13 +3,33 @@ body {
   color: black;
 }
 
+html {
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: 'UbuntuTitling-Bold';
+  src: url('../media/fonts/UbuntuTitling-Bold.ttf')
+}
+
 #main-nav {
   background-color: #FF9A33;
-  color: white;
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
 }
 
 #main-nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+#main-nav ul li {
+
+}
+
+#main-nav ul li a {
+  text-decoration: none;
+  padding: 15px 15px;
+  display: block;
+  color: white;
 }
