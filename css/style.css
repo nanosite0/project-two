@@ -13,25 +13,26 @@ html {
 }
 
 #main-nav {
-  float: left; /*set up*/
   width: 100%; /*take up upper area*/
+  float: left; /*set up*/
   background-color: #FF9A33; /*light orange*/
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
+  box-shadow: 0px 9px 2px 0px rgba(10, 45, 75, 0.4);
 }
 
 #main-nav ul {
   list-style-type: none;
+  float: left;
   margin: 0;
   padding: 0;
-  float: left;
   position: relative;
-  left:50%; /*set to middle*/
+  left:50%;
 }
 
 #main-nav ul li {
   float: left; /*single row*/
   position: relative;
-  right: 50%; /*sets to middle*/
+  right:50%; /*set to middle*/
 }
 
 #main-nav ul li a {
@@ -48,8 +49,8 @@ html {
 
 #main {
   min-height: 500px;
-  width: 100%; /*take full area*/
   float: left;
+  width: 100%;
   margin-right: 30px;
   margin-left: 30px;
 }
