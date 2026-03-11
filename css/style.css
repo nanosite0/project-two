@@ -4,7 +4,7 @@ body {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: verdana,sans-serif;
 }
 
 @font-face {
@@ -44,4 +44,17 @@ html {
 #main-nav ul li a:hover{
   background-color: #FFF;
   color: #FF9A33;
+}
+
+#main {
+  min-height: 500px;
+  width: 100%; /*take full area*/
+  float: left;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+#strong {
+  font-weight: 900;
+  font-size: 16px;}
 }
