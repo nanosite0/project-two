@@ -1,6 +1,6 @@
 body {
-  background-color: white;
-  color: black;
+  background-color: #FFF; /*white*/
+  color: #000; /*black*/
 }
 
 html {
@@ -13,7 +13,9 @@ html {
 }
 
 #main-nav {
-  background-color: #FF9A33;
+  float: left; /*set up*/
+  width: 100%; /*take up upper area*/
+  background-color: #FF9A33; /*light orange*/
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
 }
 
@@ -21,15 +23,25 @@ html {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  float: left;
+  position: relative;
+  left:50%; /*set to middle*/
 }
 
 #main-nav ul li {
-
+  float: left; /*single row*/
+  position: relative;
+  right: 50%; /*sets to middle*/
 }
 
 #main-nav ul li a {
   text-decoration: none;
   padding: 15px 15px;
   display: block;
-  color: white;
+  color: #FFF;
+}
+
+#main-nav ul li a:hover{
+  background-color: #FFF;
+  color: #FF9A33;
 }
