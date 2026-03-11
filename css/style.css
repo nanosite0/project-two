@@ -37,6 +37,25 @@ body {
   padding: 10px 70px;
 }
 
+#h1 {
+  font-family: verdana,sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: #000;
+}
+
+#h2 {
+  font-family: verdana,sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #000;
+}
+
+#strong {
+  font-weight: 900;
+  font-size: 16px;
+}
+
 #footer {
   background-color: #383164;
   height: 60px;
@@ -88,9 +107,4 @@ body {
   min-height: 500px;
   float: left;
   width: 100%;
-}
-
-#strong {
-  font-weight: 900;
-  font-size: 16px;
 }
