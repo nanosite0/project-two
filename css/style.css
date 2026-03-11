@@ -7,6 +7,21 @@ html {
   font-family: verdana,sans-serif;
 }
 
+#page-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 35px 0px; /*shifts down only*/
+}
+
+#footer {
+  background-color: #777;
+  height: 100px;
+  clear: both; /*moves to bottom*/
+  padding: 57px;
+  font-weight: 900;
+  font-size: 16px;
+}
+
 @font-face {
   font-family: 'UbuntuTitling-Bold';
   src: url('../media/fonts/UbuntuTitling-Bold.ttf')
@@ -51,11 +66,9 @@ html {
   min-height: 500px;
   float: left;
   width: 100%;
-  margin-right: 30px;
-  margin-left: 30px;
 }
 
 #strong {
   font-weight: 900;
-  font-size: 16px;}
+  font-size: 16px;
 }
