@@ -144,13 +144,6 @@ body {
   color: #383164;
 }
 
-#photo {
-  border: 5px solid #FF8A33;
-  padding: 2.5%;
-  background-color: #FFF;
-  width: 75%;
-}
-
 #alt-title {
   background-color: #FF8A33;
   border-radius: 25px;
@@ -270,7 +263,14 @@ body {
   }
 }
 
-#audio {
+img {
+  border: 5px solid #FF8A33;
+  padding: 2.5%;
+  background-color: #FFF;
+  width: 75%;
+}
+
+audio {
   background-color: #6e61c1;
   border-radius: 25px;
   padding: 1.5% 1%;
