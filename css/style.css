@@ -176,7 +176,7 @@ strong {
   border-radius: 10px;
   margin: 2% 0;
   padding: 2%;
-  & section {
+  &.section {
     background-color: #6e61c1;
     border-radius: 10px;
     padding: 0%;
@@ -184,7 +184,7 @@ strong {
     min-height: 0%;
     transition: all 0.25s ease-out;
   }
-  & ul li {
+  &.ul li {
     font-size: 0%;
   }
   transition: all 0.5s ease-out;
@@ -197,14 +197,14 @@ strong {
 
 .container-reveal:hover{
   border-radius: 50px;
-  & section {
+  &.section {
     background-color: #FFF280;
     border-radius: 35px;
     padding: 2%;
     margin: 2.5% 0;
     transition: all 0.25s ease-out;
   }
-  & ul li {
+  &.ul li {
     font-size: 100%;
   }
   transition: all 0.5s ease-out;
@@ -251,7 +251,7 @@ strong {
   padding: 2%;
   margin: 2.5% 0;
   transition: all 0.5s ease-out;
-  p {
+  &.p {
     font-size: 100%;
   }
 }
