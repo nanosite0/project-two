@@ -260,7 +260,7 @@ strong {
   padding: 2%;
   margin: 2.5% 0;
   transition: all 0.5s ease-out;
-  p {
+  & p {
     font-size: 100%;
   }
 }
