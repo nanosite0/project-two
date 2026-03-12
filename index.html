@@ -21,20 +21,30 @@
     
     <main id="main">
       <div id="content-wrapper">
-        <h2 id="h2-home">Welcome to my website! This is the homepage.</h1>
+        <div id="title">
+          <h1 id="h1">Welcome to my website! This is the homepage.</h1>
+        </div>
         <section>
           <h3 id="h3">This is music track I made about a year ago in FL Studio. The mixing could use some work...</h3>
-          <audio controls src="media/audio/mysterious-fiasco.ogg"></audio>
+          <audio id="audio" controls src="media/audio/mysterious-fiasco.ogg"></audio>
         </section>
         
         <section>
+          <div>
           <h3 id="h3">Here are some photos of mine:</h3>
-          <p><strong>This was a photo I took from my trip to Japan last year!</strong></p>
-          <img id="photo" class="japan-trip" src="media/images/japan-trip.jpg" alt="Japanese temple surrounded by forest with a crowd of tourists">
-          <p><strong>This was a giant Gundam statue in front of a Tokyo mall that saw, it even glowed!</strong></p>
-          <img id="photo" class="tokyo-gundam" src="media/images/tokyo-gundam.jpg" alt="Daytime Tokyo, Japan plaza shopping mall with a large Gundam robot statue worm's eye">
-          <p><strong>These are my two dogs dressed up in Halloween costumes!</strong></p>
-          <img id="photo" class="puppies-halloween" src="media/images/puppies-halloween.jpg" alt="Two toy poodles costumed in butterfly wings (left) and a unicorn onesie (right) with a speaker in the back, taken on Halloween">
+          </div>
+          <div id="container">
+            <p><strong>This was a photo I took from my trip to Japan last year!</strong></p>
+            <img id="photo" class="japan-trip" src="media/images/japan-trip.jpg" alt="Japanese temple surrounded by forest with a crowd of tourists">
+          </div>
+          <div id="container">
+            <p><strong>This was a giant Gundam statue in front of a Tokyo mall that saw, it even glowed!</strong></p>
+            <img id="photo" class="tokyo-gundam" src="media/images/tokyo-gundam.jpg" alt="Daytime Tokyo, Japan plaza shopping mall with a large Gundam robot statue worm's eye">
+          </div>
+          <div id="container">
+            <p><strong>These are my two dogs dressed up in Halloween costumes!</strong></p>
+            <img id="photo" class="puppies-halloween" src="media/images/puppies-halloween.jpg" alt="Two toy poodles costumed in butterfly wings (left) and a unicorn onesie (right) with a speaker in the back, taken on Halloween">
+          </div>
         </section>
       </div>
     </main>

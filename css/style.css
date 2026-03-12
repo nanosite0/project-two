@@ -154,6 +154,50 @@ body {
 
 #photo {
   border: 5px solid #FF8A33;
-  padding: 5px;
-  background-color: white;
+  padding: 2.5%;
+  background-color: #FFF;
+}
+
+#container {
+  float: left;
+  margin: 0.5% auto;
+  display: block;
+  font-weight: 600;
+}
+
+#title {
+  background-color: #FF8A33;
+  border-radius: 25px;
+  padding: 1% 2.5% 2% 3%;
+  width: 35%;
+  height: 10px;
+  margin: 0 0 15px;
+}
+
+#title h1 {
+  color: #FFF;
+  float: left;
+}
+
+#info-wrap {
+  background-color: #FFF;
+  border-radius: 25px;
+  padding: 2.5%;
+}
+
+#mini-wrap {
+  background-color: #FFF280;
+  border-radius: 35px;
+  padding: 1%;
+}
+
+#mini-wrap ul li {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
+  color: #6e61c1;
+  font-size: 18;
+  font-weight: 700;
+}
+
+#audio {
+  width: 600px;
 }
