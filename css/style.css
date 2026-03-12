@@ -25,7 +25,7 @@ body {
 }
 
 #header {
-  background-image: url("../media/images/banner.png");
+  background-image: url("../media/images/banner.jpg");
   position: relative;
 }
 
@@ -42,6 +42,7 @@ body {
   font-weight: 900;
   font-size: 18px;
   color: #000;
+  padding: 0px 0px 15px;
 }
 
 #h2 {
@@ -49,6 +50,41 @@ body {
   font-weight: 900;
   font-size: 16px;
   color: #000;
+  padding: 5px 0px 5px;
+}
+
+#h3 {
+  font-family: verdana,sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  padding: 10px 0px 10px;
+}
+
+#main {
+  min-height: 500px;
+  float: left;
+  width: 100%;
+}
+
+#main p {
+  font-family: verdana,sans-serif;
+  font-size: 16px;
+  padding: 5px 25px 10px;
+  line-height: 1.75;
+}
+
+#main ul {
+  font-family: verdana,sans-serif;
+  font-size: 16px;
+  padding: 5px 25px 10px;
+}
+
+#main ul li {
+  font-family: verdana,sans-serif;
+  font-size: 16px;
+  padding: 5px 0px 10px;
+  line-height: 1.5;
 }
 
 #strong {
@@ -57,20 +93,20 @@ body {
 }
 
 #footer {
-  background-color: #383164;
+  background-image: url("../media/images/grid.jpg");
   height: 60px;
   clear: both; /*moves to bottom*/
   padding: 50px; /*inner*/
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 25px;
   color: #FFF;
 }
 
 #main-nav {
   width: 100%; /*take up upper area*/
   float: left; /*set up*/
-  background-color: #FF9A33; /*light orange*/
+  background-color: #FF8A33; /*light orange*/
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   font-size: 18px;
   box-shadow: 0px 5px 2px 0px rgba(10, 45, 75, 0.5);
@@ -100,11 +136,5 @@ body {
 
 #main-nav ul li a:hover{
   background-color: #FFF;
-  color: #FF9A33;
-}
-
-#main {
-  min-height: 500px;
-  float: left;
-  width: 100%;
+  color: #FF8A33;
 }
