@@ -87,7 +87,7 @@ body {
   line-height: 1.5;
 }
 
-#strong {
+strong {
   font-weight: 900;
   font-size: 16px;
 }
@@ -160,7 +160,7 @@ body {
   width: 100%;
 }
 
-#container {
+.container {
   background-color: #FFF280;
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   border-radius: 35px;
@@ -171,59 +171,8 @@ body {
   font-weight: 600;
 }
 
-#blurb {
-  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
-  background-color: #FFF;
-  border-radius: 35px;
-  padding: 1% 2% 1%;
-  width: 21%;
-}
-
-#mini-wrap {
-  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
-  background-color: #FFF280;
-  border-radius: 35px;
-  padding: 2%;
-  margin: 2.5% 0;
-}
-
-#mini-wrap ul li {
-  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
-  color: #6e61c1;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-#mini-wrap-special {
-  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
-  background-color: #FFF280;
-  border-radius: 35px;
-  padding: 2% 2% 0;
-  margin: 2% 0;
-  transition: all 0.5s ease-out;
-}
-
-#mini-wrap-special p {
-  font-size: 0%;
-}
-
-#mini-wrap-special:hover{
-  background-color: #FFF;
-  border-radius: 35px;
-  padding: 2%;
-  margin: 2.5% 0;
-  transition: all 0.5s ease-out;
-  p {
-    font-size: 100%;
-  }
-}
-
-#container-reveal {
+.container-reveal {
   background-color: #6e61c1;
-  & h3 {
-    font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
-    color: #FFF;
-  }
   border-radius: 10px;
   margin: 2% 0;
   padding: 2%;
@@ -241,7 +190,12 @@ body {
   transition: all 0.5s ease-out;
 }
 
-#container-reveal:hover{
+#main .container-reveal h3 {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
+  color: #FFF;
+}
+
+.container-reveal:hover{
   border-radius: 50px;
   & section {
     background-color: #FFF280;
@@ -256,11 +210,58 @@ body {
   transition: all 0.5s ease-out;
 }
   
-#info-wrap {
+.info-wrap {
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   background-color: #FFF;
   border-radius: 25px;
   padding: 2.5%;
+}
+
+.mini-wrap {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
+  background-color: #FFF280;
+  border-radius: 35px;
+  padding: 2%;
+  margin: 2.5% 0;
+}
+
+.mini-wrap ul li {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
+  color: #6e61c1;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.mini-wrap-special {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
+  background-color: #FFF280;
+  border-radius: 35px;
+  padding: 2% 2% 0;
+  margin: 2% 0;
+  transition: all 0.5s ease-out;
+}
+
+.mini-wrap-special p {
+  font-size: 0%;
+}
+
+.mini-wrap-special:hover{
+  background-color: #FFF;
+  border-radius: 35px;
+  padding: 2%;
+  margin: 2.5% 0;
+  transition: all 0.5s ease-out;
+  p {
+    font-size: 100%;
+  }
+}
+
+.blurb {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
+  background-color: #FFF;
+  border-radius: 35px;
+  padding: 1% 2% 1%;
+  width: 21%;
 }
 
 img {
