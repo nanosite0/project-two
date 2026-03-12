@@ -34,37 +34,29 @@ body {
   font-weight: 900;
   font-size: 40px;
   color: #FFF;
-  padding: 10px 70px;
+  padding: 20px 70px;
 }
 
-#header1 {
-  font-family: verdana,sans-serif;
+#main h1 {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 22px;
   color: #000;
   padding: 0px 0px 15px;
 }
 
-#header2 {
-  font-family: verdana,sans-serif;
-  font-weight: 900;
-  font-size: 16px;
-  color: #000;
-  padding: 5px 0px 5px;
-}
-
-#header2-home {
+#main h2 {
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   font-weight: 900;
-  font-size: 24px;
+  font-size: 20px;
   color: #000;
   padding: 5px 0px 5px;
 }
 
-#header3 {
-  font-family: verdana,sans-serif;
+#main h3 {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   color: #383164;
   padding: 10px 0px 10px;
 }
@@ -159,7 +151,7 @@ body {
   width: 75%;
 }
 
-#title {
+#alt-title {
   background-color: #FF8A33;
   border-radius: 25px;
   padding: 1% 2.5% 2% 3%;
@@ -168,7 +160,8 @@ body {
   margin: 0 0 15px;
 }
 
-#title h1 {
+#alt-title h1 {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   color: #FFF;
   float: left;
   width: 100%;
@@ -176,6 +169,7 @@ body {
 
 #container {
   background-color: #FFF280;
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   border-radius: 35px;
   margin: 1% 0 2.5%;
   padding: 1% 15% 2.5%;
@@ -185,6 +179,7 @@ body {
 }
 
 #blurb {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   background-color: #FFF;
   border-radius: 35px;
   padding: 1% 2% 1%;
@@ -194,6 +189,7 @@ body {
 #container-reveal {
   background-color: #6e61c1;
   h3 {
+    font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
     color: #FFF;
   }
   border-radius: 10px;
@@ -229,12 +225,14 @@ body {
 }
 
 #info-wrap {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   background-color: #FFF;
   border-radius: 25px;
   padding: 2.5%;
 }
 
 #mini-wrap {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   background-color: #FFF280;
   border-radius: 35px;
   padding: 2%;
@@ -249,6 +247,7 @@ body {
 }
 
 #mini-wrap-special {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   background-color: #FFF280;
   border-radius: 35px;
   padding: 2% 2% 0;
