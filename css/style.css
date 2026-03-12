@@ -156,13 +156,7 @@ body {
   border: 5px solid #FF8A33;
   padding: 2.5%;
   background-color: #FFF;
-}
-
-#container {
-  float: left;
-  margin: 0.5% auto;
-  display: block;
-  font-weight: 600;
+  width: 75%;
 }
 
 #title {
@@ -177,6 +171,24 @@ body {
 #title h1 {
   color: #FFF;
   float: left;
+  width: 100%;
+}
+
+#container {
+  background-color: #FFF280;
+  border-radius: 35px;
+  margin: 1% 0 2.5%;
+  padding: 1% 15% 2.5%;
+  width: 70%;
+  float: left;
+  font-weight: 600;
+}
+
+#blurb {
+  background-color: #FFF;
+  border-radius: 35px;
+  padding: 1% 2% 1%;
+  width: 21%;
 }
 
 #info-wrap {
@@ -188,7 +200,7 @@ body {
 #mini-wrap {
   background-color: #FFF280;
   border-radius: 35px;
-  padding: 1%;
+  padding: 2%;
   margin: 2.5% 0;
 }
 
@@ -200,5 +212,8 @@ body {
 }
 
 #audio {
-  width: 600px;
+  background-color: #6e61c1;
+  border-radius: 25px;
+  padding: 1.5% 1%;
+  width: 75%;
 }
