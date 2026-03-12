@@ -191,6 +191,43 @@ body {
   width: 21%;
 }
 
+#container-reveal {
+  background-color: #6e61c1;
+  h3 {
+    color: #FFF;
+  }
+  border-radius: 10px;
+  margin: 2% 0;
+  padding: 2%;
+  div {
+    background-color: #6e61c1;
+    border-radius: 10px;
+    padding: 0%;
+    margin: 0% 0% -2%;
+    min-height: 0%;
+    transition: all 0.25s ease-out;
+  }
+  ul li {
+    font-size: 0%;
+  }
+  transition: all 0.5s ease-out;
+}
+
+#container-reveal:hover{
+  border-radius: 50px;
+  div {
+    background-color: #FFF280;
+    border-radius: 35px;
+    padding: 2%;
+    margin: 2.5% 0;
+    transition: all 0.25s ease-out;
+  }
+  ul li {
+    font-size: 100%;
+  }
+  transition: all 0.5s ease-out;
+}
+
 #info-wrap {
   background-color: #FFF;
   border-radius: 25px;
