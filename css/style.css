@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF; /*white*/
+  background-image: url("../media/images/lined.jpg");
   color: #000; /*black*/
 }
 
@@ -137,4 +137,15 @@ body {
 #main-nav ul li a:hover{
   background-color: #FFF;
   color: #FF8A33;
+}
+
+#main-nav ul li a:active{
+  background-color: #FF8A33;
+  color: #383164;
+}
+
+#photo {
+  border: 5px solid #FF8A33;
+  padding: 5px;
+  background-color: white;
 }
