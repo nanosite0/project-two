@@ -176,55 +176,28 @@ strong {
   border-radius: 10px;
   margin: 2% 0;
   padding: 2%;
-  .mini-wrap {
-    background-color: #6e61c1;
-    border-radius: 10px;
-    padding: 0%;
-    margin: 0% 0% -2%;
-    min-height: 0%;
-    transition: all 0.25s ease-out;
-    strong {
-      font-weight: 900;
-      font-size: 16px;
-    }
-  }
-  .ul li {
-    font-size: 0%;
-  }
   transition: all 0.5s ease-out;
 }
 
+#main .container-reveal ul li {
+  font-size: 0%;
+}
+
 #main .container-reveal h3 {
-  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
-  color: #FFF;
+  background-color: #6e61c1;
+  border-radius: 10px;
+  padding: 0%;
+  margin: 0% 0% -2%;
+  min-height: 0%;
+  transition: all 0.25s ease-out;
 }
 
 .container-reveal:hover{
   border-radius: 50px;
-  .mini-wrap {
-    background-color: #FFF280;
-    border-radius: 35px;
-    padding: 2%;
-    margin: 2.5% 0;
-    transition: all 0.25s ease-out;
-  }
-  ul li {
-    font-size: 100%;
-  }
-  ul li strong {
-    font-weight: 500px;
-    font-size: 17px;
-    color: #ee7800;
-  }
   transition: all 0.5s ease-out;
 }
-  
-.info-wrap {
-  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
-  background-color: #FFF;
-  border-radius: 25px;
-  padding: 2.5%;
-}
+
+/*MAIN PAGE*/
 
 .mini-wrap {
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
@@ -234,12 +207,55 @@ strong {
   margin: 2.5% 0;
 }
 
-.mini-wrap ul li {
+#main .mini-wrap ul li {
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
   color: #6e61c1;
   font-size: 15px;
   font-weight: 700;
 }
+
+/*RESUME PAGE*/
+
+.info-wrap {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
+  background-color: #FFF;
+  border-radius: 25px;
+  padding: 2.5%;
+}
+
+.hide-wrap {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
+  color: #FFF;
+  transition: all 0.15s ease-out;
+}
+
+#main .hide-wrap strong {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+#main .hide-wrap ul li {
+  font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
+  color: #6e61c1;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.container-reveal:hover .hide-wrap{
+  background-color: #FFF280;
+  border-radius: 35px;
+  padding: 2%;
+  margin: 2.5% 0;
+  transition: all 0.25s ease-out;
+}
+
+.container-reveal:hover .hide-wrap ul li strong{
+  font-weight: 500px;
+  font-size: 17px;
+  color: #ee7800;
+}
+
+/*MOVIES PAGE*/
 
 .mini-wrap-special {
   font-family: 'UbuntuTitling-Bold',verdana,sans-serif;
